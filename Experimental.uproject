@@ -11,7 +11,8 @@
 			"AdditionalDependencies": [
 				"DataValidation",
 				"Engine",
-				"DeveloperSettings"
+				"DeveloperSettings",
+				"UMG"
 			]
 		}
 	],
