@@ -4,6 +4,7 @@
 #include "AssetValidator_WidgetNaming.h"
 #include "Framework/Application/SlateApplication.h"
 #include "BaseWidgetBlueprint.h"
+#include "GeneralProjectSettings.h"
 #include "Blueprint/WidgetTree.h"
 #include "Internationalization/Regex.h"
 #include "Misc/Paths.h"
@@ -32,6 +33,7 @@ EDataValidationResult UAssetValidator_WidgetNaming::ValidateLoadedAsset_Implemen
 		return EDataValidationResult::Invalid;
 	}
 
+	
 	/*// validate canvas DPI set to 1 ---- That didn't work :(
 	const UBaseWidgetBlueprint* AsWidget = Cast<UBaseWidgetBlueprint>(InAsset);
 	UWidget* AsUWidget = AsWidget->WidgetTree->RootWidget.Get();
