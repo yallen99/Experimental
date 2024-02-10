@@ -21,7 +21,7 @@ public class Experimental : ModuleRules
 			"CommonUI",
 		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] {"AITestSuite"});
+		PrivateDependencyModuleNames.AddRange(new string[] {"AITestSuite", "ModelViewViewModel"});
 
 		 //Uncomment if you are using Slate UI
 		 
