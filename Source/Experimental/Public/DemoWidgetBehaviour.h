@@ -13,5 +13,8 @@ UCLASS()
 class EXPERIMENTAL_API UDemoWidgetBehaviour : public UUserWidget
 {
 	GENERATED_BODY()
+	UPROPERTY(meta=(BindWidget))
+	class UImage* North;
 	
+	virtual void SynchronizeProperties() override;
 };
