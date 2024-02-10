@@ -16,3 +16,7 @@ I was curious about the safe zone component from UMg and how it reacts to differ
 # Automation & Testing part 1
 I briefly touched the surface of unit testing and automation. It's a comprehensive topic I will explore more in the future, but because this project is just a little experiment, I didn't go too in-depth with it. I refreshed my memory on how to access the Session Frontend, the type of tests and how to run the tests.
 ![Testing_1](https://github.com/yallen99/Experimental/assets/55985184/78b457ed-f56d-4a70-9422-01487d784576)
+
+# MVVM Plugin - Base setup using blueprints
+Set up and used the MVVM Plugin provided by Epic in a very common case scenario - a health bar. Created an MVVM custom class, added a Health value to it and bound it using Field Notify to a progress bar in UMG. In a custom Player Controller I bound increase/decrease health functions to test the widget updates accordingly.
+![image](https://github.com/yallen99/Experimental/assets/55985184/c7b3c20a-336f-411e-8778-a5b1aef02e8d)
