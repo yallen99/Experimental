@@ -14,5 +14,5 @@ I was curious about the safe zone component from UMg and how it reacts to differ
 ![SafeZone](https://github.com/yallen99/Experimental/assets/55985184/b7bb3c1c-27f1-43a9-b6c1-f8a7fde3ea95)
 
 # Automation & Testing part 1
-I briefly touched the surface of unit testing and automation. It's a comprehensive topic I will explore more in the future, but because this project is just a little experiments, I didn't go too in-depth with it. I refreshed my memory on how to access the Session Frontend, the type of tests and how to run the tests.
+I briefly touched the surface of unit testing and automation. It's a comprehensive topic I will explore more in the future, but because this project is just a little experiment, I didn't go too in-depth with it. I refreshed my memory on how to access the Session Frontend, the type of tests and how to run the tests.
 ![Testing_1](https://github.com/yallen99/Experimental/assets/55985184/78b457ed-f56d-4a70-9422-01487d784576)
