@@ -20,3 +20,10 @@ I briefly touched the surface of unit testing and automation. It's a comprehensi
 # MVVM Plugin - Base setup using blueprints
 Set up and used the MVVM Plugin provided by Epic in a very common case scenario - a health bar. Created an MVVM custom class, added a Health value to it and bound it using Field Notify to a progress bar in UMG. In a custom Player Controller I bound increase/decrease health functions to test the widget updates accordingly.
 ![image](https://github.com/yallen99/Experimental/assets/55985184/c7b3c20a-336f-411e-8778-a5b1aef02e8d)
+
+# Unreal Insights Profiling
+Although an extensive topic, I wanted to try Unreal Insights and managed to mark a function to show on the Unreal Insights graph. It was a silly function running a loop over a million elements (so it would be significant on the graph). Upsed a scope timer and a scope timer with a channel. 
+![image](https://github.com/yallen99/Experimental/assets/55985184/4ba60ec3-b29b-4410-b2e5-178cc28cee62)
+![image](https://github.com/yallen99/Experimental/assets/55985184/1f409639-885b-45ed-bf24-110768b90bfe)
+
+
